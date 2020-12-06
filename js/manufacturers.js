@@ -27,7 +27,7 @@ $(function(){
         var manufacturer = JSON.stringify({
             "name":$("#name").val(),
             "country":$("#country").val(),
-            "founded":date.getFullYear() + "-" + (date.getMonth() < 9 ? "0" + (date.getMonth() + 1) : (date.getMonth() + 1)) + "-" + (date.getDate() < 9 ? "0" + date.getDate() : date.getDate())
+            "founded":date.getFullYear() + "-" + (date.getMonth() < 9 ? "0" + (date.getMonth() + 1) : (date.getMonth() + 1)) + "-" + (date.getDate() < 10 ? "0" + date.getDate() : date.getDate())
         });
 
         $.ajax({
@@ -83,7 +83,7 @@ $(function(){
         var manufacturer = JSON.stringify({
             "name":$("#name").val(),
             "country":$("#country").val(),
-            "founded":date.getFullYear() + "-" + (date.getMonth() < 9 ? "0" + (date.getMonth() + 1) : (date.getMonth() + 1)) + "-" + (date.getDate() < 9 ? "0" + date.getDate() : date.getDate())
+            "founded":date.getFullYear() + "-" + (date.getMonth() < 9 ? "0" + (date.getMonth() + 1) : (date.getMonth() + 1)) + "-" + (date.getDate() < 10 ? "0" + date.getDate() : date.getDate())
         });
 
         $.ajax({
