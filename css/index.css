@@ -1,0 +1,60 @@
+.title{
+    color: black;
+    margin: auto;
+    text-align: center;
+    font-size: xx-large;
+    vertical-align: middle;
+    font-weight: bold;
+}
+
+.button{
+    width: 75%;
+    margin: auto;
+    top: 5px;
+    padding-right: 0px;
+    border: 5px solid darkgray;
+    background-color: darkgray;
+    color: black;
+    border-radius: 5px;
+    margin-top: 5px;
+}
+
+.manufTable{
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    border-collapse: separate;
+    border: 2px solid black;
+}
+
+.carsTable{
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    border-collapse: separate;
+    border: 2px solid black;
+}
+
+th, td{
+    border: 1px solid black;
+}
+
+.mainTable{
+    width: 100%;
+    height: 100%;
+    border: 0px;
+}
+
+.banner{
+    vertical-align: top;
+    background-color: darkorange;
+    height: 700px;
+    width: 20%;
+    border: 0px;
+}
+
+.data{
+    width: 80%;
+    border: 0px;
+    vertical-align: top;
+}
